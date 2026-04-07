@@ -9,11 +9,11 @@ public class Ex14_10 {
         Scanner borabill = new Scanner(System.in);
         double valor, quant, ipi, total, valorcipi, totalfim;
 
-        System.out.print("Digite o valor unitário do produto (em reais): ");
+        System.out.println("Digite o valor unitário do produto (em reais): ");
         valor = borabill.nextDouble();
-        System.out.print("Digite a quantidade de unidades compradas: ");
+        System.out.println("Digite a quantidade de unidades compradas: ");
         quant = borabill.nextDouble();
-        System.out.print("Digite o percentual de IPI (Imposto sobre Produto Industrializado) a ser aplicado: ");
+        System.out.println("Digite o percentual de IPI (Imposto sobre Produto Industrializado) a ser aplicado: ");
         ipi = borabill.nextDouble();
 
         total = valor * quant;
@@ -23,6 +23,7 @@ public class Ex14_10 {
         System.out.println("Total sem imposto: R$ " + total);
         System.out.println("Valor do IPI: R$ " + valorcipi);
         System.out.println("Total com imposto: R$ " + totalfim);
+        System.out.println("Total com imposto de 15% (IPI): R$ " + (total + total * 15/100));
 
         borabill.close();
     }

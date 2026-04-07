@@ -9,13 +9,13 @@ public class Ex13_09 {
         Scanner borabill = new Scanner(System.in);
         int la, lb, lc;
         System.out.println("Descubra o tipo do seu triângulo:");
-        System.out.print("Digite o primeiro lado: ");
+        System.out.println("Digite o primeiro lado: ");
         la = borabill.nextInt();
 
-        System.out.print("Digite o segundo lado: ");
+        System.out.println("Digite o segundo lado: ");
         lb = borabill.nextInt();
 
-        System.out.print("Digite o terceiro lado: ");
+        System.out.println("Digite o terceiro lado: ");
         lc = borabill.nextInt();
 
         if (la == lb && lb == lc) {
