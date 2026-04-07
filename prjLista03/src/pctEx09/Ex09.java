@@ -7,11 +7,13 @@ public class Ex09 {
     public static void main(String[] args) {
 
         Scanner borabill = new Scanner(System.in);
-        
-        System.out.println("------Exercício 09------");
-        
-        // Digite seu código aqui
+        int num;
+        String intervalo;
 
+        System.out.println("Digite um número e descubra se ele está entre o intervalo: ");
+        num = borabill.nextInt();
+        intervalo = (num >= 10 && num <= 50) ? "Dentro do intervalo" : "Fora do intervalo";
+        System.out.println(intervalo);
         borabill.close();
     }
 }
